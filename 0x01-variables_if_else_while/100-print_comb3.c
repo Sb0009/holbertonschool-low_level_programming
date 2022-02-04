@@ -1,24 +1,25 @@
 #include <stdio.h>
 
 /**
-* main - Entry point
+* main - Initial function
 *
-* Return:  0 (Success)
+*Return: return 0 to success
 */
+
 int main(void)
 {
-int i;
-for (i = 0; i < 100 ; i++)
+int i, j;
+for (i = 48; i < 58; i++)
 {
-putchar((i / 10) + '0');
-putchar((i % 10) + '0');
-if (i < 99)
+for (j = i; j < 58; j++)
 {
-putchar(',');
+if (i != j)
+{
+putchar(i);
+putchar(j);
+putchar(i == 56 && j == 57 ? '\n' : ',');
+if (i != 56 || j != 57)
 putchar(' ');
 }
-else
-putchar('\n');
-}
+
 return (0);
-}
