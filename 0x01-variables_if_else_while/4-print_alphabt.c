@@ -5,19 +5,21 @@
 /**
  * main - Entry point
  *
- * Return:  0 (Success)
+ * Return: Return 0 (Success)
  */
 int main(void)
 {
 char c;
-for (c = 'a'; c <= 'z'; c++)
+c = 'a';
+do {
+if (c != 'e' && c != 'q')
 {
 putchar(c);
+c++;
 }
-for (c = 'A'; c <= 'Z'; c++)
-{
-putchar(c);
-}
+else
+c++;
+} while (c <= 'z');
 putchar('\n');
 return (0);
 }
