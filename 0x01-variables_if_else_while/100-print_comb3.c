@@ -6,20 +6,15 @@
 *Return: return 0 to success
 */
 
-int main(void)
+int main() {
+int i;
+printf("Even numbers between 1 to 89 (inclusive):\n");
+for (i = 1; i <= 89; i++) 
 {
-int i, j;
-for (i = 48; i < 58; i++)
+if(i%2 == 0) 
 {
-for (j = i; j < 58; j++)
-{
-if (i != j)
-{
-putchar(i);
-putchar(j);
-putchar(i == 56 && j == 57 ? '\n' : ',');
-if (i != 56 || j != 57)
-putchar(' ');
+printf("%d ", i);
 }
-
-return (0);
+}
+return 0;
+}
