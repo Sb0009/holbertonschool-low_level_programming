@@ -8,10 +8,10 @@
 
 int main(void)
 {
-int c;
-for (c = 0; c < 10; c++)
+int a;
+for (a = 0; a < 10; a++)
 {
-printf("%d", c);
+printf("%d", a);
 }
 putchar('\n');
 return (0);
