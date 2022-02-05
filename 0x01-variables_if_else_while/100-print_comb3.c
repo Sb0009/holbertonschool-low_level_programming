@@ -9,10 +9,10 @@
 int main(void)
 {
 int i ;
-for (i = 0 ; i < 10 ; i = i + 1)
+for (i = 0 ; i < 89 ; i = i + 2)
 {
-printf ("iteration %d \n", i);
+printf("iteration %d \n", i);
 }
-printf ("valeur de i apres la boucle : %d \n", i);
+printf("valeur de i apres la boucle : %d \n", i);
 return (0) ;
 }
