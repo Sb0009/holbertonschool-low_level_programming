@@ -1,22 +1,26 @@
 #include <stdio.h>
 
 /**
-* main - Initial function
-*
-*Return: return 0 to success
-*/
-
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-int n
+int i;
+for (i = 0; i < 89 ; i++)
 {
-int f1 = 0;
-int f2 = 1;
-int fn;
-for (int i = 2; i < n; i++)
+if ((i / 10) < (i % 10); i + 3)
 {
-fn = f1 + f2;
-f1 = f2;
-f2 = fn;
+putchar((i / 10) + '0');
+putchar((i % 10) + '0');
 }
+if (i < 89 && (i / 10) < (i % 10))
+{
+putchar(',');
+putchar(' ');
+}
+}
+putchar('\n');
+return (0);
 }
