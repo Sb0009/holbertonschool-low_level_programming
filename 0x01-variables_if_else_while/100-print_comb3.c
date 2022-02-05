@@ -1,27 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
+
 int main(void)
 {
-int i;
-for (i = 0; i < 89 ; i++)
+int i ;
+for (i = 0 ; i < 10 ; i = i + 1)
 {
-if ((i / 10) < (i % 10);)
-{
-putchar((i / 10) + '0');
-putchar((i % 10) + '0');
+printf ("iteration %d \n", i);
 }
-if (i < 89 && (i / 10) < (i % 10))
-{
-putchar(',');
-putchar(' ');
-}
-if (i == 10 ; i --) ; 
-}
-putchar('\n');
-return (0);
+printf ("valeur de i apres la boucle : %d \n", i);
+return (0) ;
 }
