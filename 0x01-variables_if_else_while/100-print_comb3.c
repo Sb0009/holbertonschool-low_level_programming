@@ -6,9 +6,9 @@
 *Return: return 0 to success
 */
 
-int main()
+int main(void)
 {
-int Fibonacci(int n)
+int n
 {
 int f1 = 0;
 int f2 = 1;
