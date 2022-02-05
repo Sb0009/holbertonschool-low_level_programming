@@ -1,21 +1,35 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
-* main - Entry point
-*
-* Return: Always 0 (Success)
-*/
+ *main - print comb3.
+ *
+ *Return: 0 (success)
+ */
 
 int main(void)
 {
-int i ;
-if(i = 0 ; i < 89 ; i = i ++)
+int i;
+int j;
+int x;
+
+x = 48;
+for (i = 48; i < 58; i++)
 {
-putchar("iteration %d \n");
+for (j = x; j < 58; j++)
+{
+if (i != j)
+{
+putchar(i);
+putchar(j);
+if (!(i == 56 && j == 57))
+{
+putchar(44);
+putchar(32);
 }
-{
-else("valeur de i apres la boucle : %d \n", i + 2);
-putchar(' ');
-putchar(,);
+}
+}
+x = x + 1;
+}
+putchar('\n');
 return (0);
 }
