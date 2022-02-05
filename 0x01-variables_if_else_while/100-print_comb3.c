@@ -20,7 +20,7 @@ if (i < 89 && (i / 10) < (i % 10))
 putchar(',');
 putchar(' ');
 }
-if (i == 10 ; i +2) ; 
+if (i == 10 ; i --) ; 
 }
 putchar('\n');
 return (0);
