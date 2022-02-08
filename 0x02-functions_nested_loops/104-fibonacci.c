@@ -8,7 +8,7 @@
 int main(void)
 {
 int i;
-long int pf, af, f;
+int pf, af, f;
 
 pf = 1;
 af = 2;
