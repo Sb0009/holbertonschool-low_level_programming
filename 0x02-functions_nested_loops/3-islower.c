@@ -1,10 +1,10 @@
 #include "main.h"
-
 /**
-*_islower -  Run man islower to learn more..
-* @c: the character to be tested 
-* Return: - 1 if lowercase 0 if not.
+* _islower- Main function define if c is lower or not
+* Return:1 ou 0
+* @c:character to be tested
 */
+
 int  _islower(int c)
 {
 if (c >= 97 && c <= 122)
