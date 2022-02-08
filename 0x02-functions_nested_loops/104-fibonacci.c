@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - check the code .
@@ -14,12 +15,12 @@ pf = 1;
 af = 2;
 printf("1, ");
 printf("2, ");
-for (i = 0; i < 48; i++)
+for (i = 0; i < 49; i++)
 {
 f = pf + af;
 pf = af;
 af = f;
-if (i != 47)
+if (i != 48)
 {
 printf("%ld, ", f);
 }
