@@ -14,12 +14,12 @@ pf = 1;
 af = 2;
 printf("1, ");
 printf("2, ");
-for (i = 0; i < 101; i++)
+for (i = 0; i < 48; i++)
 {
 f = pf + af;
 pf = af;
 af = f;
-if (i != 100)
+if (i != 47)
 {
 printf("%ld, ", f);
 }
