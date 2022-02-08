@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_times_table - prints the n times table  between 0-15
- * @n: Integer
- *
- * Return: On success 1.
- * On error, -1 is returned, and errn.
- */
+* print_times_table - prints the n times table  between 0-15
+* @n: Integer
+*
+* Return: On success 1.
+* On error, -1 is returned, and errn.
+*/
 void print_times_table(int n)
 {
 int i, j, r;
@@ -16,7 +16,7 @@ for (i = 0; i <= n; i++)
 {
 for (j = 0; j <= n; j++)
 {
-r= i * j;
+r = i * j;
 if (j != 0)
 {
 _putchar (',');
