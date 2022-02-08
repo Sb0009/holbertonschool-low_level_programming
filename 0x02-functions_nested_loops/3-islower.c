@@ -2,8 +2,7 @@
 
 /**
  *_islower -  Run man islower to learn more..
- *
- * 
+ * @c: the character to be tested 
  * Return: - 1 if lowercase 0 if not.
  */
 int  _islower(int c)
