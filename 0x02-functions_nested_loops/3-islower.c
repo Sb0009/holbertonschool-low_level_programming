@@ -1,4 +1,4 @@
-#include "man.h"
+#include "main.h"
 
 /**
  *_islower -  Run man islower to learn more..
