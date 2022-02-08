@@ -1,29 +1,49 @@
 #include <stdio.h>
 
 /**
- * natural - Write a program that computes and prints the sum of
- * all the multiples of 3 or 5 below 1024 (excluded)
- * @i: Integer
- * @r: Result
- * Return: On success 1.
+ * main - check the code 
  *
+ * Return: Always 0.
  */
-
 int main(void)
 {
 int i;
-float a, b, r;
-a = 1;
-b = 2;
-r= 0;
-printf("1, 2");
-for(i = 1; i <= 96; i++)
+long int pf, af, f, f1, f2, f3;
+
+pf = 1;
+af = 2;
+printf("1, ");
+printf("2, ");
+for (i = 0; i < 96; i++)
 {
-r = a + b;
-a = b;
-b = r;
-printf(", %.0f",r);
+f = pf + af;
+pf = af;
+af = f;
+if (f < 10000000)
+{
+printf("%ld", f);
 }
-putchar('\n');
+else if ((f > 10000000) && (f < 100000000000000))
+{
+f2 = f / 10000000;
+f3 = f % 10000000;
+printf("%ld", f2);
+printf("%ld", f3);
+}
+else
+{
+f1 = f / 100000000000000;
+f2 = (f % 100000000000000) / 10000000;
+f3 = f % 10000000;
+printf("%ld", f1);
+printf("%ld, ", f2);
+printf("%ld, ", f3);
+}
+if (i != 95)
+{
+printf(", ");
+}
+}
+printf("\n");
 return (0);
 }
