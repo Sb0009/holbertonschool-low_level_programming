@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_sign - define if  numb is positive or negative or is a zero.
- * @n: the number to be tested.
- * Return: - return 1 if n>0 return 0 if n=0 return -1 if n<0.
- */
+* print_sign - define if  numb is positive or negative or is a zero.
+* @n: the number to be tested.
+* Return: - return 1 if n>0 return 0 if n=0 return -1 if n<0.
+*/
 int  print_sign(int n)
 {
 if (n > 0)
