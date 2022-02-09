@@ -1,46 +1,48 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - check the code
  *
- * Return:  0 Check code Fibonacci
+ * Return: Always 0.
  */
-
 int main(void)
 {
-const unsigned long int max;
-unsigned long int a, ao;
-unsigned long int b, bo;
-unsigned long int c, co;
 int i;
-a = 1;
-ao = 0;
-b = 2;
-bo = 0;
-c = 0;
-co = 0;
+long int pf, af, f, f1, f2, f3;
 
-max = 1000000000000000000;
-
-printf("1, 2");
-for (i = 0; i < 100; i++)
+pf = 1;
+af = 2;
+printf("1, ");
+printf("2, ");
+for (i = 0; i < 98; i++)
 {
-c = a + b;
-co = ao + bo;
-if (c > max - 1)
+f = pf + af;
+pf = af;
+af = f;
+if (f < 10000000)
 {
-co += 1;
-c %= max;
+printf("%ld", f);
 }
-a = b;
-ao = bo;
-b = c;
-bo = co;
-
+else if ((f > 10000000) && (f < 100000000000000))
+{
+f2 = f / 10000000;
+f3 = f % 10000000;
+printf("%ld", f2);
+printf("%ld", f3);
+}
+else
+{
+f1 = f / 100000000000000;
+f2 = (f % 100000000000000) / 10000000;
+f3 = f % 10000000;
+printf("%ld", f1);
+printf("%ld, ", f2);
+printf("%ld, ", f3);
+}
+if (i != 100)
+{
 printf(", ");
-if (co != 0)
-printf("%lu", co);
-printf("%lu", c);
+}
 }
 printf("\n");
 return (0);
