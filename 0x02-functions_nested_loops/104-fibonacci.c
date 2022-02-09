@@ -1,49 +1,47 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * main - check the code
+ * main - calls fibonacci
  *
- * Return: Always 0.
+ * Return: always 0
  */
 int main(void)
 {
-int i;
-long int pf, af, f, f1, f2, f3;
+	fibonacci_print_100();
+	return (0);
+}
 
-pf = 1;
-af = 2;
-printf("1, ");
-printf("2, ");
+/**
+ * fibonacci_print_100 - print first 100 fibonacci numbers
+ *
+ * Return: void
+ */
+void fibonacci_print_100(void)
+{
+unsigned long i, a1, a2, b1, b2, c1, c2, s, g;
+
+s = 1000000000000000000;
+a1 = 0;
+a2 = 1;
+b1 = 0;
+b2 = 2;
 for (i = 0; i < 98; i++)
 {
-f = pf + af;
-pf = af;
-af = f;
-if (f < 10000000)
-{
-printf("%ld", f);
-}
-else if ((f > 10000000) && (f < 100000000000000))
-{
-f2 = f / 10000000;
-f3 = f % 10000000;
-printf("%ld", f2);
-printf("%ld", f3);
-}
-else
-{
-f1 = f / 100000000000000;
-f2 = (f % 100000000000000) / 10000000;
-f3 = f % 10000000;
-printf("%ld", f1);
-printf("%ld, ", f2);
-printf("%ld, ", f3);
-}
-if (i != 97)
-{
-printf("%ld");
-}
+if (a1)
+printf("%lu", a1);
+printf("%lu", a2);
+if (i < 98)
+printf(", ");
+c1 = a1;
+c2 = a2;
+a1 = b1;
+a2 = b2;
+b1 += c1;
+b2 += c2;
+g = b2 / s;
+b2 %= s;
+b1 += g;
 }
 printf("\n");
-return (0);
 }
