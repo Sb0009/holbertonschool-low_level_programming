@@ -17,32 +17,17 @@ return (0);
  *
  * Return: void
  */
-void fibonacci_print_100(void)
-{
-unsigned long i, a1, a2, b1, b2, c1, c2, s, g;
 
-s = 1000000000000000;
-a1 = 0;
-a2 = 1;
-b1 = 0;
-b2 = 2;
-for (i = 0; i < 98; i++)
+
+int fiboIt(int n)
 {
-if (a1)
-printf("%lu", a1);
-printf("%lu", a2);
-if (i < 98)
-printf(", ");
-c1 = a1;
-c2 = a2;
-a1 = b1;
-a2 = b2;
-b1 += c1;
-b2 += c2;
-g = b2 / s;
-b2 %= s;
-b1 += g;
+int F0 = 1, F1 = 1, F = F1;
+if (n==0) F = F0 ;
+for(int i = 2; i<= n; ++i)
+{
+F = F0+F1;
+F0 = F1;
+F1 = F;
 }
-
-printf("%lu%lu\n", c1, c2);
+return F;
 }
