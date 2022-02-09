@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-	fibonacci_print_100();
-	return (0);
+fibonacci_print_100();
+return (0);
 }
 
 /**
@@ -21,7 +21,7 @@ void fibonacci_print_100(void)
 {
 unsigned long i, a1, a2, b1, b2, c1, c2, s, g;
 
-s = 1000000000000000000;
+s = 10000000000000000;
 a1 = 0;
 a2 = 1;
 b1 = 0;
