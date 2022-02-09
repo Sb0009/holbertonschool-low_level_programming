@@ -21,25 +21,25 @@ pf = af;
 af = f;
 if (f < 10000000)
 {
-printf("%lu", f);
+printf("%ld", f);
 }
 else if ((f > 10000000) && (f < 100000000000000))
 {
 f2 = f / 10000000;
 f3 = f % 10000000;
-printf("%lu", f2);
-printf("%lu", f3);
+printf("%ld", f2);
+printf("%ld", f3);
 }
 else
 {
 f1 = f / 100000000000000;
 f2 = (f % 100000000000000) / 10000000;
 f3 = f % 10000000;
-printf("%lu", f1);
-printf("%lu, ", f2);
-printf("%lu, ", f3);
+printf("%ld", f1);
+printf("%ld, ", f2);
+printf("%ld, ", f3);
 }
-if (i != 100)
+if (i != 98)
 {
 printf(", ");
 }
