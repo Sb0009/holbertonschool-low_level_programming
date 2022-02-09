@@ -43,5 +43,5 @@ g = b2 / s;
 b2 %= s;
 b1 += g;
 }
-printf("\n");
+printf("%lu%lu\n");
 }
