@@ -21,7 +21,7 @@ void fibonacci_print_100(void)
 {
 unsigned long i, a1, a2, b1, b2, c1, c2, s, g;
 
-s = 10000000000000000;
+s = 1000000000000000;
 a1 = 0;
 a2 = 1;
 b1 = 0;
@@ -43,5 +43,6 @@ g = b2 / s;
 b2 %= s;
 b1 += g;
 }
-printf("%lu%lu\n");
+
+printf("%lu%lu\n", c1, c2);
 }
