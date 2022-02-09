@@ -39,9 +39,9 @@ printf("%ld", f1);
 printf("%ld, ", f2);
 printf("%ld, ", f3);
 }
-if (i != 98)
+if (i != 97)
 {
-printf(", ");
+printf("%ld");
 }
 }
 printf("\n");
