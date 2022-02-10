@@ -1,47 +1,33 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - calls fibonacci
  *
- * Return:  0 Check code Fibonacci
+ * Return: always 0
  */
-
 int main(void)
 {
-const unsigned long int max;
-unsigned long int a, ao;
-unsigned long int b, bo;
-unsigned long int c, co;
-int i;
-a = 1;
-ao = 0;
-b = 2;
-bo = 0;
-c = 0;
-co = 0;
-
-max = 1000000000000000000;
-
-printf("1, 2");
-for (i = 0; i < 96; i++)
-{
-c = a + b;
-co = ao + bo;
-if (c > max - 1)
-{
-co += 1;
-c %= max;
-}
-a = b;
-ao = bo;
-b = c;
-bo = co;
-
-printf(", ");
-if (co != 0)
-printf("%lu", co);
-printf("%lu", c);
-}
-printf("\n");
+fibonacci_print_100();
 return (0);
+}
+
+/**
+ * fibonacci_print_100 - print first 100 fibonacci numbers
+ *
+ * Return: void
+ */
+
+
+int fiboIt(int n)
+{
+int F0 = 1, F1 = 1, F = F1;
+if (n==0) F = F0 ;
+for(int i = 2; i<= n; ++i)
+{
+F = F0+F1;
+F0 = F1;
+F1 = F;
+}
+return F;
 }
