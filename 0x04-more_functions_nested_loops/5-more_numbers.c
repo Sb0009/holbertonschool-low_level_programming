@@ -1,13 +1,22 @@
-#include "main.h"
-/**
-* more_numbers - prints 10 times the numbers, from 0 to 14
-*
-* Return: void.
-*/
+# include "main.h"
 
+/**
+* more_numbers - prints 10 times the numbers from 0 to 14
+* Return: void
+*/
 void more_numbers(void)
 {
-for (int i = 14; i < 10; i++)
+int i, j; /* iteratrs */
+for (i = 0; i < 10; i++)
 {
-System.out.print(i + ((i % 10 == 9) ? "\n" : " "));
+for (j = 0; j < 15; j++)
+{
+if (j > 10)
+{
+_putchar ((j / 10) + '0');
+}
+_putchar((j % 10) + '0');
+}
+_putchar('\n');
+}
 }
