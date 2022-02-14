@@ -1,3 +1,7 @@
+
+
+https://user-images.githubusercontent.com/96126445/153856320-194c4f4b-f43a-4381-afe0-cde4689db0db.mp4
+
 0x05. C - Pointers, arrays and strings
 
     By Julien Barbier
