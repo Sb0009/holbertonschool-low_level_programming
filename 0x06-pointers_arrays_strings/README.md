@@ -4,13 +4,21 @@ Standard Library for String Functions
 
 
 strlen(s1): Returns length of string s1. It excludes the null character that is ‘\0’.
+
 strlwr(s1): It converts the string s1 to lowercase.
+
 strcat(s1,s2): Inserts a copy of string s2 to the end of s1 and dump s1 with a null and returns s1.
+
 strcmp(s1,s2): This function compares s1 and s2 and returns negative if s1<s2, positive if s1>s2, 0 if s1=s2.
+
 strcpy(s1,s2): It copies the s2 string into the s1 string, and modifies the s1 string.
+
 strupr(s1): It converts the string s1 into uppercase.
+
 strstr(s1,s2): This function returns a pointer to the first occurrence of the s2 string in the s1 string.
+
 strrev(s1): It returns the reverse string of the s1 string.
+
 Strings and Pointers
 
  --------------------------------------- An array of characters is known as String. ---------------------------------------------
