@@ -1,6 +1,6 @@
 Standard Library for String Functions
 
-#include <string.h> :  header file contains many functions , some are listed below:
+#include <string.h> "main.h"  header file contains many functions , some are listed below:
 
 
 strlen(s1): Returns length of string s1. It excludes the null character that is ‘\0’.
