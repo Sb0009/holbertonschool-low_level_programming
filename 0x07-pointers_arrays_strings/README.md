@@ -1,23 +1,19 @@
-0x07. C - Even more pointers, arrays and strings
+#### 0x07. C - Even more pointers, arrays and strings
 
     By Julien Barbier
-    Weight: 1
-    Ongoing project - started 02-21-2022, must end by 02-22-2022 (in about 14 hours) - you're done with 0% of tasks.
-    Checker will be released at 02-21-2022 12:00 PM
-    An auto review will be launched at the deadline
+#### HOLBERTON SCHOOL France
 
-Concepts
+====================  
 
-For this project, students are expected to look at these concepts:
 
-    Pointers and arrays
-    Concept Mathilde
+![steve](https://user-images.githubusercontent.com/96126445/155324884-c86b58df-10bc-4f9c-8720-fa3bad70841a.jpg)
 
-Resources
 
-Read or watch:
+- What are pointers to pointers and how to use them
 
-    C - Pointer to Pointer
-    C – Pointer to Pointer with example
-    Multi-dimensional Arrays in C
-    Two dimensional (2D) arrays in C programming with example
+- What are multidimensional arrays and how to use them
+- 
+- What are the most common C standard library functions to manipulate strings
+
+  
+  
