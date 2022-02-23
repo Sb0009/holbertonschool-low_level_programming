@@ -1,4 +1,4 @@
-Standard Library for String Functions
+#### Standard Library for String Functions
 
 #include <string.h> "main.h"  header file contains many functions , some are listed below:
 
@@ -21,8 +21,9 @@ strrev(s1): It returns the reverse string of the s1 string.
 
 Strings and Pointers
 
- --------------------------------------- An array of characters is known as String. ---------------------------------------------
-
+ --------------------------------------- An array of characters is known as String. --------------------------------------------
+ 
+ 🎰🎰🎰🎰🎰🎰🎰🎰🎰🎰🎰�
 
 The string name is the constant pointer to the string.
 

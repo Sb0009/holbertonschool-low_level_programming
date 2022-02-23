@@ -1,13 +1,58 @@
-# holbertonschool-low_level_programming
+ Hello, World
+ By Julien Barbier
+Foundations
+#### HOLBERTON SCHOOL France
 
-What does Compilation mean in Programming?
+====================  
 
-The C language is an exemple of a Compilated language and i will briefly demonstrate in this project i will show how works a compiler in a C language and how to invocate the compiler collection to have the result of this operation.
 
-Simply, the compilation means to transform a program written in a high-level programming language from source code into low level programming language (Binary). Programmers write programs in a form called source code.
+Why C programming is awesome
 
-To introduce the subject , let’s start with example to explain quickly the Low level programming language:
-The zeros and ones used in binary code represent open (zero) or closed (one) electrical signals. Rather than using a decimal system like what we do (which goes from 1 to 9 and starts again by adding a 0 to go to 10), the binary goes from 0 to 1 and then starts again at 10.11 then 100, 101, 110…
+Who invented C
 
-For computers , a file means “electrical signals” composed by octet ,byte 
+Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
+
+What happens when you type gcc main.c
+
+What is an entry point
+
+What is main
+
+How to print text using printf, puts and putchar
+
+How to get the size of a specific type using the unary operator sizeof
+
+How to compile using gcc
+
+What is the default program name when compiling with gcc
+
+What is the official C coding style and how to check your code with betty-style
+
+How to find the right header to include in your source code when using a standard
+library function
+
+How does the main function influence the return value of the program
+------------------------  
+
+
+#### Low-level programming & Algorithm - Hatching out
+
+
+212 0x00. C - Hello, World 
+
+213 0x01. C - Variables, if, else, while 
+
+214 0x02. C - Functions, nested loops 
+
+539 0x03. C - Debugging 
+
+215 0x04. C - More functions, more nested loops 
+
+216 0x05. C - Pointers, arrays and strings
+
+217 0x06. C - More pointers, arrays and strings
+
+218 0x07. C - Even more pointers, arrays and strings   
+
+
 
