@@ -1,4 +1,4 @@
- - Hello, World
+ Hello, World
  By Julien Barbier
 Foundations
 #### HOLBERTON SCHOOL France
