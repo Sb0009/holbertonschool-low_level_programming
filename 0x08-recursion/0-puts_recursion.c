@@ -15,5 +15,5 @@ i++;
 _puts_recursion(s + i);
 }
 else
-putchar('\n');
+_putchar('\n');
 }
