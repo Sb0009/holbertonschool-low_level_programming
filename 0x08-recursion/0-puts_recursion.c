@@ -13,7 +13,7 @@ if (s[i])
 _putchar(s[i]);
 i++;
 _puts_recursion(s + i);
- }
- else
-_putchar('\n');
+}
+else
+putchar('\n');
 }
