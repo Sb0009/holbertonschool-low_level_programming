@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	int cents, i = 0 , coins = 0;
+	int cents, i = 0, coins = 0;
 	int value[] = {25, 10, 5, 2, 1};
 
 	if (argc == 1)
