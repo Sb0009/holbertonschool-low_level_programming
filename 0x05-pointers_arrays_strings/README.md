@@ -1,8 +1,5 @@
 
 
-![POINTERS ](https://user-images.githubusercontent.com/96126445/153856556-98c753c0-ac11-4cc5-876a-b77ce8f2bc51.gif)
-
-
 
 
 #### 0x05. C - Pointers, arrays and strings
