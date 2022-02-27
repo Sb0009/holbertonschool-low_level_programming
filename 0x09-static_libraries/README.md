@@ -1,6 +1,7 @@
 ### 0x09. C - Static libraries Foundations - Low-level programming & Algorithm ― Hatching out
 
-###A propos
+### ![maxresdefault](https://user-images.githubusercontent.com/96126445/155863860-c0baf56f-035c-417a-81de-0077872ccd1b.jpg)
+A propos
 
     What is a static library, how does it work, how to create one, and how to use it
     Basic usage of ar, ranlib, nm
