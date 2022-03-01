@@ -1,5 +1,5 @@
 ### 0x0B. C - malloc, free
-Resourcesbooks
+Resources
 ==========================================
 Read or watch:
 
