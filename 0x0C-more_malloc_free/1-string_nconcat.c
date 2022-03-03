@@ -12,7 +12,6 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-
 	char *a;
 	unsigned int i, j, k, l;
 
@@ -33,9 +32,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (j = 0, k = 0; j < (n + i); j++)
 	{
 		if (j < i)
-			a[j] = s1[j];
+			a[j] = s1[j]
+			  ;
 		else if (j <= (l + i))
-			a[j] = s2[k++];
+			a[j] = s2[k++]
+			  ;
 		else
 		{
 			a = (char *)realloc(a, i + l + 1);
@@ -43,7 +44,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		}
 	}
 	if (n < l)
-	  a[j] = 0;
+		a[j] = 0;
 
 	return (a);
 
