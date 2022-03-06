@@ -3,8 +3,7 @@
 Foundations
 #### HOLBERTON SCHOOL France
 
-====================  
-
+------------------------  
 
 Why C programming is awesome
 
