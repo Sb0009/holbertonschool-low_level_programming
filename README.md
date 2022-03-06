@@ -9,7 +9,7 @@ Why C programming is awesome
 
 Who invented C
 
-Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
+Who are Dennis Ritchie, Brian Kernighan and 9
 ![origin](https://user-images.githubusercontent.com/96126445/156945268-debe3238-1e8b-4235-ad3d-45ef30924a0a.jpg)
 
 
@@ -34,8 +34,8 @@ library function
 
 How does the main function influence the return value of the program
 ------------------------  
-
-
+Linus Torvalds
+https://www.linux.com/images/stories/41373/Linus_Touching_Heart.gif
 #### Low-level programming & Algorithm - Hatching out
 
 
