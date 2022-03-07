@@ -1,4 +1,6 @@
-#ifndef SIZE
-#define SIZE 1024
-#endif /* SIZE */
+#ifndef _MACRO_
+#define _MACRO_
 
+#define SIZE 1024
+
+#endif
