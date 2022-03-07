@@ -1,6 +1,6 @@
  Hello, World
- By Julien Barbier
-Foundations
+By Julien Barbier
+
 #### HOLBERTON SCHOOL France
 
 ------------------------  
@@ -9,7 +9,9 @@ Why C programming is awesome
 
 Who invented C
 
-Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
+Who are Dennis Ritchie, Brian Kernighan and 9
+![origin](https://user-images.githubusercontent.com/96126445/156945268-debe3238-1e8b-4235-ad3d-45ef30924a0a.jpg)
+
 
 What happens when you type gcc main.c
 https://medium.com/@sihambadyine/what-does-compilation-mean-in-programming-6e43ac305c90
@@ -32,7 +34,8 @@ library function
 
 How does the main function influence the return value of the program
 ------------------------  
-
+Linus Torvalds
+![Linus_Touching_Heart](https://user-images.githubusercontent.com/96126445/156945447-9064595a-b98f-4282-a178-53f3cbac674c.gif)
 
 #### Low-level programming & Algorithm - Hatching out
 
