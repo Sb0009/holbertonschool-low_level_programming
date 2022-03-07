@@ -30,6 +30,7 @@ char *Copy_Name = name, *Copy_Owner = NULL;
 	{
 		free(New_Dog->name);
 		free(New_Dog);
+		free(Copy_Owner);
 	}
 	New_Dog->age = age;
 	New_Dog->name = Copy_Name;
