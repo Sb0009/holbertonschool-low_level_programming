@@ -3,39 +3,54 @@
 #include <stdio.h>
 
 /**
- * new_dog - Create new dog.
+ * new_dog - new dog.
  * @name: value (dog's name).
  * @age: value (dog's age).
  * @owner: value (dog's owner).
- * Return: the new dog.
+ * rex : adress string
+ * Return: Succes 0
  */
+
+
+
+
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	int nwn, olen, i;
-	dog_t *PointerToDog;
+	dog_t *rex;
+	int i;
+	int j;
 
-	nwn = olen = 0;
-	while (name[nwn++])
+	for (i = 0; name[i] != '\0'; i++)
 		;
-	while (owner[olen++])
+	for (j = 0; owner[j] != '\0'; j++)
 		;
-	PointerToDog = malloc(sizeof(dog_t));
-	if (PointerToDog == NULL)
-		return (NULL);
+	rex = malloc(sizeof(dog_t));
 
-	PointerToDog->name = malloc(nwn * sizeof(PointerToDog->name));
-	if (PointerToDog == NULL)
+	if (rex  == 0 || name == 0 || owner == 0)
+	{
 		return (NULL);
-	for (i = 0; i < nwn; i++)
-		PointerToDog->name[i] = name[i];
+	}
 
-	PointerToDog->age = age;
+	rex->name = malloc(sizeof(char) * (i + 1));
+	rex->owner = malloc(sizeof(char) * (j + 1));
 
-	PointerToDog->owner = malloc(olen * sizeof(PointerToDog->owner));
-	if (PointerToDog == NULL)
+	if (rex->name == 0 || rex->owner == 0)
+	{
+		free(rex);
+		free(rex->owner);
+		free(rex->name);
 		return (NULL);
-	for (i = 0; i < olen; i++)
-		PointerToDog->owner[i] = owner[i];
-	return (PointerToDog);
+	}
+
+	for (i = 0; name[i] != 0; i++)
+		rex->name[i] = name[i];
+	rex->name[i] = 0;
+
+	rex->age = age;
+
+	for (j = 0; owner[j] != 0; j++)
+		rex->owner[j] = owner[j];
+	rex->owner[j] = 0;
+	return (rex);
 }
