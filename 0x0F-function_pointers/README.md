@@ -1,7 +1,6 @@
 # 0x0F. C - Function pointers
 
-<details>
-    <summary><b>💥
+
 
     <summary><b>💥 What are function pointers and how to use them?<b></summary>
 
