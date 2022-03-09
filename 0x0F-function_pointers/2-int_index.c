@@ -7,19 +7,18 @@
 *@cmp: function called
 *Return: Return index integer
 */
-
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	int index = 0;
+	int index;
 
-if (array && cmp && size < 0)
-{
-for (index = 0; index < size ; index++)
-{
-if (cmp(array[index]) == 0)
-return (index);
-}
-return (-1);
-}
-return (-1);
+	if (size <= 0 || array == NULL || cmp == NULL)
+		return (-1);
+
+	for (index = 0; index < size ; index++)
+	{
+		if (cmp(array[index]))
+			return (index);
+	}
+
+	return (-1);
 }
