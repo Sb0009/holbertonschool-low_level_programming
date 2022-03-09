@@ -9,7 +9,7 @@ Why C programming is awesome
 
 Who invented C
 
-Who are Dennis Ritchie, Brian Kernighan and 9
+Who are Dennis Ritchie, Brian Kernighan 
 ![origin](https://user-images.githubusercontent.com/96126445/156945268-debe3238-1e8b-4235-ad3d-45ef30924a0a.jpg)
 
 
