@@ -2,22 +2,26 @@
 /**
  * print_list - fonction
  * @h: pointeur initialized in main
- * Return: counter
+ * Return: count
  */
 
 
 size_t print_list(const list_t *h)
 {
-	size_t count = 0;
+	int node = 0;
 
-	for (count = 0; h != NULL; count++)
+	while (h != NULL)
 	{
 		if (h->str == NULL)
+		{
 			printf("[0] (nil)\n");
+		}
 		else
+		{
 			printf("[%d] %s\n", h->len, h->str);
-
+		}
 		h = h->next;
+		node++;
 	}
-	return (count);
+return (node);
 }
