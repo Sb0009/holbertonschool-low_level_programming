@@ -14,7 +14,7 @@ Who are Dennis Ritchie, Brian Kernighan
 
 
 What happens when you type gcc main.c
-https://medium.com/@sihambadyine/what-does-compilation-mean-in-programming-6e43ac305c90
+![My Articles] (https://medium.com/@sihambadyine/what-does-compilation-mean-in-programming-6e43ac305c90)
 What is an entry point
 
 What is main
