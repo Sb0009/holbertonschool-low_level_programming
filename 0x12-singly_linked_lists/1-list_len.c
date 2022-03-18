@@ -1,27 +1,19 @@
 #include "lists.h"
 
 /**
- * list_len - main function
+ * list_len - calculates lenght link list
  * @h: point to the first element (node)
  * Return: number of elements.
  */
 
 size_t list_len(const list_t *h)
 {
-	int node = 0;
+	size_t node = 0;
 
-	while (h != NULL)
+while (h!= NULL)
 	{
-		if (h->str == NULL)
-		{
-			return (0);
-		}
-		else
-		{
-			h = h->next;
-			node++;
-		}
+		h = h->next;
+		len++;
 	}
-return (node);
-
+	return (len);
 }
