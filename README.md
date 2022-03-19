@@ -15,7 +15,7 @@ Who are Dennis Ritchie, Brian Kernighan
 
 What happens when you type gcc main.c
 
-
+📜
 Look at ([my article ](https://medium.com/@sihambadyine))
 
 What is an entry point
