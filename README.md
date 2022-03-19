@@ -1,6 +1,6 @@
 
 
-####  ([Holberton School] (https://www.holbertonschool.com/))
+####  **[Holberton School](https://www.holbertonschool.com/)**
 
 
 #### Low-level programming & Algorithm - Hatching out
