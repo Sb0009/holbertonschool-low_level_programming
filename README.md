@@ -1,7 +1,18 @@
- Hello, World
-By Julien Barbier
+
 
 #### HOLBERTON SCHOOL France
+
+
+#### Low-level programming & Algorithm - Hatching out
+
+- **[Hello,World](0x00)**: 
+- **[Variables, if, else, while](0x01)**
+- **[Functions, nested loops](0x02)**.
+- **[Debugging](0x03)**
+- **[More functions, more nested loops](0x04)**
+- **[Pointers, arrays and strings](0x05)**
+- **[More pointers, arrays and strings](0x06)**
+- **[Even more pointers, arrays and strings ](0x07)**
 
 ------------------------  
 
@@ -40,16 +51,6 @@ How does the main function influence the return value of the program
 Linus Torvalds
 ![Linus_Touching_Heart](https://user-images.githubusercontent.com/96126445/156945447-9064595a-b98f-4282-a178-53f3cbac674c.gif)
 
-#### Low-level programming & Algorithm - Hatching out
-
-- **[Hello,World](0x00)**: 
-- **[Variables, if, else, while](0x01)**
-- **[Functions, nested loops](0x02)**.
-- **[Debugging](0x03)**
-- **[More functions, more nested loops](0x04)
-- **[Pointers, arrays and strings](0x05)**
-- **[More pointers, arrays and strings](0x06)**
-- **[Even more pointers, arrays and strings ](0x07)**
 
 
 
