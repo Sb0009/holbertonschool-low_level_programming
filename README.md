@@ -21,9 +21,7 @@
 
 ------------------------  
 
-Why C programming is awesome
-
-Who invented C
+:trophy:
 
 Who are Dennis Ritchie, Brian Kernighan 
 
