@@ -45,10 +45,6 @@ How to get the size of a specific type using the unary operator sizeof
 ```
 How does the main function influence the return value of the program
 ------------------------  
-Linus Torvalds
-![Linus_Touching_Heart](https://user-images.githubusercontent.com/96126445/156945447-9064595a-b98f-4282-a178-53f3cbac674c.gif)
-
-
 
 
 
