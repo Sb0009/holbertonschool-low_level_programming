@@ -3,7 +3,8 @@
 </p>
 <p align="center">
 <img src="http://www.advancecomputing.co.in/wp-content/uploads/2019/06/BitwiseOperators-1.png" width="500">
- - example
+
+ 'example'
  
 <p/>☜(ﾟヮﾟ☜) multi by 2 for shift 1k to the left 
 
