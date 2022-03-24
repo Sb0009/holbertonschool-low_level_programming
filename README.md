@@ -21,9 +21,9 @@
 
 ------------------------  
 
-:trophy:
 
-Who are Dennis Ritchie, Brian Kernighan 
+
+ Dennis Ritchie :trophy: Brian Kernighan 
 
 
 <p align="center">
