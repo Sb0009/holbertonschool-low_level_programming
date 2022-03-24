@@ -12,5 +12,5 @@
 
 </p>
 <p align="center">
-<img src="https://media.istockphoto.com/vectors/nesting-doll-icon-on-transparent-background-vector-id1283073276?k=20&m=1283073276&s=612x612&w=0&h=6XhLbt-JQFWO5yQqmXwMrjBu5KCyyEkvedwRmSlN4qI=" width="500">
+<img src="https://media.istockphoto.com/vectors/nesting-doll-icon-on-transparent-background-vector-id1283073276?k=20&m=1283073276&s=612x612&w=0&h=6XhLbt-JQFWO5yQqmXwMrjBu5KCyyEkvedwRmSlN4qI=" width="300">
 <p/>
