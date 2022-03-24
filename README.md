@@ -21,9 +21,7 @@
 
 ------------------------  
 
-Why C programming is awesome
-
-Who invented C
+:trophy:
 
 Who are Dennis Ritchie, Brian Kernighan 
 
@@ -43,21 +41,10 @@ How to print text using printf, puts and putchar
 
 How to get the size of a specific type using the unary operator sizeof
 
-How to compile using gcc
-
-What is the default program name when compiling with gcc
-
-What is the official C coding style and how to check your code with betty-style
-
-How to find the right header to include in your source code when using a standard
-library function
-
+--------------------
+```
 How does the main function influence the return value of the program
 ------------------------  
-Linus Torvalds
-![Linus_Touching_Heart](https://user-images.githubusercontent.com/96126445/156945447-9064595a-b98f-4282-a178-53f3cbac674c.gif)
-
-
 
 
 
