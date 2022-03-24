@@ -1,7 +1,7 @@
    - [📚 Education](#-education-)
    
 
-![image]({`https://img.shields.io/badge/Snyk-4C4A73?style=for-the-badge&logo=snyk&logoColor=white`})
+![image](https://img.shields.io/badge/Snyk-4C4A73?style=for-the-badge&logo=snyk&logoColor=white)
 
 Write a function that prints all the elements of a list_t list.
 
