@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * set_bit - sets value of a bit to 1 at a given index
  * @n: decimal number passed by pointer
