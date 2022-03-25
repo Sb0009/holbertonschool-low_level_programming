@@ -21,17 +21,19 @@
 
 ------------------------  
 
-:trophy:
 
-Who are Dennis Ritchie, Brian Kernighan 
 
-![origin](https://user-images.githubusercontent.com/96126445/156945268-debe3238-1e8b-4235-ad3d-45ef30924a0a.jpg)
+ Dennis Ritchie :trophy: Brian Kernighan 
 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/96126445/156945268-debe3238-1e8b-4235-ad3d-45ef30924a0a.jpg" width="500">
+<p/>
 
 What happens when you type gcc main.c
 
 📜
-Look at ([my article ](https://medium.com/@sihambadyine))
+Look at [my article ](https://medium.com/@sihambadyine)
 
 What is an entry point
 
@@ -44,7 +46,7 @@ How to get the size of a specific type using the unary operator sizeof
 --------------------
 ```
 How does the main function influence the return value of the program
-------------------------  
-
+-
+☆*: .｡. o(≧▽≦)o .｡.:*☆
 
 
