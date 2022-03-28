@@ -1,7 +1,7 @@
 # File I/O 
 ### All you need to know
 
-## :books:Source:books:
+## :books:Ressources:books:
 * [File description](https://en.wikipedia.org/wiki/File_descriptor "File description")
 * [C Programming in Linux Tutorial #024 - open() read() write() Functions](https://www.youtube.com/watch?v=dP3N8g7h8gY "Video file i/O")
 * [input output sytem call in C](https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/ "Open,write and others")
