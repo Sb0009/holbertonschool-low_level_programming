@@ -1,6 +1,7 @@
 ### 0x09. C - Static libraries Foundations - Low-level programming & Algorithm ― Hatching out
-
-### ![maxresdefault](https://user-images.githubusercontent.com/96126445/155863860-c0baf56f-035c-417a-81de-0077872ccd1b.jpg)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/96126445/160299629-bfe53540-ac0b-476f-9d73-3981461015f5.png" width="300" height ="330">
+<p/>
 A propos
 
     What is a static library, how does it work, how to create one, and how to use it

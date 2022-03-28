@@ -47,6 +47,6 @@ How to get the size of a specific type using the unary operator sizeof
 ```
 How does the main function influence the return value of the program
 -
-☆*: .｡. o(≧▽≦)o .｡.:*☆
+☆**☆
 
 
