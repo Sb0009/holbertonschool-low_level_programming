@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 /**
  *dlistint_len - calculate Length of the list
  *@h: Header of the list
