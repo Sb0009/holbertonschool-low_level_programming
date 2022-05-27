@@ -19,7 +19,7 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	aux = ht->array[index];
 	while (aux)
 	{
-		if (aux->key == 0)
+		if (aux->key == (char *) key)
 			return (aux->value);
 		aux = aux->next;
 	}
